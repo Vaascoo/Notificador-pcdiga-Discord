@@ -80,6 +80,8 @@ if __name__ == "__main__":
             items.append(Item(name, item))
     except EOFError:
         print("\ndone")
+        
+    client.run("key")
 
 #sujo mas eficaz
 @client.event
@@ -98,5 +100,3 @@ async def message(message):
         await channel.send(message)
     else:
         print("f")
-
-client.run("key")
