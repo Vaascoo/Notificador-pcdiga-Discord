@@ -53,7 +53,6 @@ def available(url):
                 
 
     try:
-
         res = request(url)
     
     except Exception:
