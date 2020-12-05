@@ -3,7 +3,7 @@ Um script que manda uma mensagem para um canal do discord quando um item fica di
 
 Não garanto funcionamento livre de bugs, não sou responsável pela utilização do script de qualquer maneira e não sou dono de nenhum dos conteúdos do site pcdiga.com
 
-
+Dependências:
 ```shell
 pip install requests bs4 discord
 ```
