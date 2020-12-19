@@ -48,7 +48,7 @@ def available(url):
             tries += 1
             sleep(0.5)
             if tries > 5:
-                raise Exception() #lazy but works
+                raise Exception()
         return res
                 
 
@@ -82,7 +82,6 @@ if __name__ == "__main__":
         
     client.run("key")
 
-#sujo mas eficaz
 @client.event
 async def on_ready():
     print('Bot Running')
